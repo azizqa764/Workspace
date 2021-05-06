@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="methods" name="Parallel TestSuite">
+	<test name="Test 1">
+		-
+		<classes>
+			<class name="testngasserts.TestNG_Parallel1" />
+		</classes>
+	</test>
+	<test name="Test 2">
+		<classes>
+			<class name="testngasserts.TestNG_parallel2" />
+		</classes>
+	</test>
+</suite>

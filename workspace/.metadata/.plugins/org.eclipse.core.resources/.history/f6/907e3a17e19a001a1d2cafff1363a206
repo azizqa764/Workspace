@@ -1,0 +1,43 @@
+package udemy;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Workingwithelements {
+	WebDriver driver;
+	String BaseUrl1;
+	String BaseUrl2;
+	
+
+	@Before
+	public void setUp() throws Exception {
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		Thread.sleep(2000);
+		driver.quit();
+	}
+
+	@Test
+	public void testLetsKodeit() {
+		driver.get(BaseUrl1);
+		
+		WebElement textbox = driver.findElement(By.id("displayed-text"));
+		System.out.println("Text Box Displayed: " + textbox.isDisplayed()); 
+	}
+	
+
+	//@Test
+	//public void testExpedia() {
+		//fail("Not yet implemented");
+	//}
+
+}

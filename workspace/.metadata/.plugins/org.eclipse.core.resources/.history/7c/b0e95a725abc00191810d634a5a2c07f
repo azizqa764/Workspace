@@ -1,0 +1,23 @@
+package selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Dropdownlisttest {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\AZIZ\\Documents\\seleniumjar\\geckodriver.exe");
+		FirefoxDriver driver = new FirefoxDriver();
+		
+		driver.get("https://www.ebay.ca/");
+		Thread.sleep(2000);
+		List<WebElement> all = driver.findElements(By.xpath("//div[@id='gh-cat-box']"));
+		 System.out.println(all.size());
+
+	}
+
+}

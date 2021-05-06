@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGProject by groups]">
+  <test name="GRP-chutiya(failed)">
+    <groups>
+      <run>
+        <include name="chutiya"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.Testing3">
+        <methods>
+          <include name="homeTest"/>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- selenium.Testing3 -->
+    </classes>
+  </test> <!-- GRP-chutiya(failed) -->
+</suite> <!-- Failed suite [TestNGProject by groups] -->

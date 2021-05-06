@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Parallel TestSuite">
+	<test name="Test 1">
+		-
+		<classes>
+			<class name="testclasses.TestNG_Parallel1" />
+		</classes>
+	</test>
+	<test name="Test 2">
+		<classes>
+			<class name="testclasses.TestNG_Parallel2" />
+		</classes>
+	</test>
+</suite>

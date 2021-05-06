@@ -1,0 +1,20 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AttributeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 System.setProperty("webdriver.gecko.driver", "C:\\Users\\AZIZ\\Documents\\seleniumjar\\geckodriver.exe");
+		 FirefoxDriver driver = new FirefoxDriver();
+		 driver.get("https://www.ebay.ca/");
+		 
+		 String S = driver.findElement(By.xpath("//input[@id='gh-ac']")).getText();
+		 System.out.println(S);
+		 
+
+	}
+
+}

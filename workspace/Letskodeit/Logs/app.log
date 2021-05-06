@@ -1,0 +1,3 @@
+16:06:25.375 DEBUG LoggingDemo -debug message logged
+16:06:25.382 ERROR LoggingDemo - raunak chutiya
+16:06:25.382 FATAL LoggingDemo -fatal error logged 

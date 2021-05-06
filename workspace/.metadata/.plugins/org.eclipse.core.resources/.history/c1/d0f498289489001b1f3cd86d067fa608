@@ -1,0 +1,26 @@
+package inheritance_concept;
+
+
+class A  //parent
+{
+	int  a ;
+	void display() {
+		System.out.println(a);
+	}
+}
+
+class b extends A  // b is a child class
+{
+	int b ;
+	void print () {
+		System.out.println(b);
+	}
+}
+
+public class InheritancetypesDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

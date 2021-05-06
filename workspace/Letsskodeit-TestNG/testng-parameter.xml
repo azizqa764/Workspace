@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameters TestSuite">
+	<test name=" Test 1">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="windows"></parameter>
+		<parameter name="response" value="201,202"></parameter>
+
+		<classes>
+			<class name="testngasserts.TestNG_testparameters"></class>
+
+
+		</classes>
+	</test>
+</suite>

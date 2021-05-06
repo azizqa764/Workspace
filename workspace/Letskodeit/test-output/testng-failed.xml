@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="5" name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="45.0.2454.85"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://www.expedia.com"/>
+    <classes>
+      <class name="gridselenium.SeleniumGrid_ParallelTestFramework">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="searchFlights"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- gridselenium.SeleniumGrid_ParallelTestFramework -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="FireFox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="34.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://www.expedia.com"/>
+    <classes>
+      <class name="gridselenium.SeleniumGrid_ParallelTestFramework">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="searchFlights"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- gridselenium.SeleniumGrid_ParallelTestFramework -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

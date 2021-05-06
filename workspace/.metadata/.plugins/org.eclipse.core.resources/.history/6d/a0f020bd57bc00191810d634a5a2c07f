@@ -1,0 +1,28 @@
+package selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class YahooList {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\AZIZ\\Documents\\seleniumjar\\geckodriver.exe");
+		FirefoxDriver driver = new FirefoxDriver();
+		
+		driver.get("https://ca.yahoo.com/?p=us");
+		System.out.println(driver.getTitle());
+		
+		driver.findElement(By.xpath("//div[@id='yui_3_18_0_3_1565539855896_849']")).click();
+		Thread.sleep(5000);
+		
+		List<WebElement> all = driver.findElements(By.xpath("//li[contains(@class,'trending-list selected')]/ul/li"));
+		 System.out.println(all.size());
+		 
+		 
+	}
+
+}

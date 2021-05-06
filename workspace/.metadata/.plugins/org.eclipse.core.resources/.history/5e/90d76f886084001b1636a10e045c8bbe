@@ -1,0 +1,21 @@
+package firstcode;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		
+		int a= 100; // int type data 
+		double d=15.2;
+		char c = 'a';
+		
+		boolean b =  true;
+		
+		String s = "Welcome";
+		
+		System.out.println(s);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,66 @@
+package tests;
+
+import org.testng.annotations.Test;
+
+import data.Datafile;
+import pages.LoginPage;
+
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+
+public class LoginTest {
+	
+	
+	LoginPage lp = new LoginPage();
+	Datafile df = new Datafile();
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	 lp.openBrowser();
+	 lp.openGmail();
+	 System.out.println(df.invalidEmail);
+	 System.out.println(df.validEmail);
+	 System.out.println(df.wrongpassword);
+	 System.out.println(df.passwordError);
+	 System.out.println(df.emailError);
+	 
+	 
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+	  lp.closeBrowser();
+  }
+  
+  @Test
+  public void loginWithWrongPasswordTest() throws InterruptedException {
+	  
+	 lp.enterEmail(df.validEmail);
+	 lp.enterpassword(df.wrongpassword);
+	    String expErrMsg = df.passwordError;
+	    
+	    String actualMsg = lp.readPasswordErr();
+	    System.out.println(actualMsg);
+	    	
+       Assert.assertEquals(expErrMsg, actualMsg);	
+  }
+     //driver.findElement(By.xpath("//div[@jsname='B34EJ']/span")).getText();
+  
+       @Test
+       public void loginWithWrongEmailTest() throws InterruptedException {
+     	  
+     	  lp.enterWrongEmail(df.invalidEmail);
+     		String expErrMsg = df.emailError;
+    	    
+    	    String actualMsg = lp.readEmailErr();
+    	    System.out.println(actualMsg);
+    	    
+           Assert.assertEquals(expErrMsg, actualMsg);	
+      }
+  }
+
+//driver.findElement(By.xpath("//div[@class='GQ8Pzc']")).getText();
+     
+

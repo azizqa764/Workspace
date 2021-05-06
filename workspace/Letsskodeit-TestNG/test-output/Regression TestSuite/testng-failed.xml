@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression TestSuite]">
+  <test thread-count="5" name="Application Test(failed)">
+    <classes>
+      <class name="testngasserts.Testng_asserts">
+        <methods>
+          <include name="testArrays"/>
+        </methods>
+      </class> <!-- testngasserts.Testng_asserts -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

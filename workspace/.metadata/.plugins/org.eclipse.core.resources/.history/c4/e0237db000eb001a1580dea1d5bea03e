@@ -1,0 +1,30 @@
+package udemy;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class CalenderSelection {
+	WebDriver driver = new FirefoxDriver();
+			String BaseUrl;
+
+	@Before
+	public void setUp() throws Exception {
+		BaseUrl = "https://www.expedia.ca/?gclid=EAIaIQobChMI7vPk0eHD6wIVFW-GCh2K7wuPEAAYASAAEgLTgvD_BwE&langid=4105&pwaLob=wizard-flight-pwa&semcid=CA.B.GOOGLE.BT-c-EN.GENERIC&semdtl=a110200480633.b1104776622311.r1.g1kwd-12670071.i1.d1438865670334.e1c.j19000917.k1.f1.n1.l1g.h1e.m1";
+	}
+	driver.
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
