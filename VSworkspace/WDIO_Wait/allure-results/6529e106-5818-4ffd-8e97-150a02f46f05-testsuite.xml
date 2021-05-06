@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603477192044' stop='1603477213361'>
+    <name>Element status suite</name>
+    <title>Element status suite</title>
+    <test-cases>
+        <test-case start='1603477192045' status='pending' stop='1603477192045'>
+            <name>should display hidden text</name>
+            <title>should display hidden text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1603477192046' status='passed' stop='1603477195408'>
+            <name>should display existing text</name>
+            <title>should display existing text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1603477198409' status='failed' stop='1603477199110'>
+            <name>should be clickable</name>
+            <title>should be clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Button is Clickable</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Button is Clickable
+                    at Context.&lt;anonymous> (C:\Users\AZIZ\Documents\VSworkspace\WDIO_Wait\tests\elementStatus.spec.js:42:16)
+                    at Context.executeSync (C:\Users\AZIZ\Documents\VSworkspace\WDIO_Wait\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\AZIZ\Documents\VSworkspace\WDIO_Wait\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1603477202113' status='passed' stop='1603477205017'>
+            <name>should be enable</name>
+            <title>should be enable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1603477208018' status='passed' stop='1603477210357'>
+            <name>should change text</name>
+            <title>should change text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.111'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

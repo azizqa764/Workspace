@@ -1,0 +1,57 @@
+{
+  "uid" : "4ed0bd8b5941fadd",
+  "name" : "should display hidden text",
+  "fullName" : "Element status suite.should display hidden text",
+  "historyId" : "f85300c3e5ccefed78181b045fee702a",
+  "time" : {
+    "start" : 1603477192045,
+    "stop" : 1603477192045,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should display hidden text"
+  }, {
+    "name" : "package",
+    "value" : "Element status suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5b7d3bf50a023ce",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1603475792007,
+        "stop" : 1603475792007,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ed0bd8b5941fadd.json",
+  "parameterValues" : [ ]
+}

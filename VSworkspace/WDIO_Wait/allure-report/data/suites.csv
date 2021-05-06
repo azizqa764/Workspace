@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Oct 23 14:19:58 EDT 2020","Fri Oct 23 14:19:59 EDT 2020","701","","Element status suite","","Element status suite","should be clickable","should be clickable",""
+"skipped","Fri Oct 23 14:19:52 EDT 2020","Fri Oct 23 14:19:52 EDT 2020","0","","Element status suite","","Element status suite","should display hidden text","should display hidden text",""
+"passed","Fri Oct 23 14:20:02 EDT 2020","Fri Oct 23 14:20:05 EDT 2020","2904","","Element status suite","","Element status suite","should be enable","should be enable",""
+"passed","Fri Oct 23 14:19:52 EDT 2020","Fri Oct 23 14:19:55 EDT 2020","3362","","Element status suite","","Element status suite","should display existing text","should display existing text",""
+"passed","Fri Oct 23 14:20:08 EDT 2020","Fri Oct 23 14:20:10 EDT 2020","2339","","Element status suite","","Element status suite","should change text","should change text",""

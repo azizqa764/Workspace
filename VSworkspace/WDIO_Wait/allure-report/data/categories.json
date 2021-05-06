@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Button is Clickable",
+      "children" : [ {
+        "name" : "should be clickable",
+        "uid" : "7aa18fd9ff5f1fcc",
+        "parentUid" : "ef07c7c9b02772f85bcd3a874dd56d4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603477198409,
+          "stop" : 1603477199110,
+          "duration" : 701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-86.0.4240.111" ]
+      } ],
+      "uid" : "ef07c7c9b02772f85bcd3a874dd56d4d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

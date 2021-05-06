@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var person = {};
+        person = {
+            firstName: "jason",
+            lastName: "xyz",
+            age : 29,
+            Ismarried: true,
+            kids: ["a","z"],
+            fullName: function() {
+                return firstName +""+ this.lastName
+            },
+            add(a,b){
+                return a+b
+            }
+        }
+       // console.log(person.firstName);
+      //  console.log(`Hi my name is ${person.firstName} ${person.lastName}`);
+      //console.log(person.age);
+      //console.log(person.kids[0]);
+     // console.log(person.fullName());
+     console.log(person.add(1,2));
+
+    </script>
+    
+</body>
+</html>

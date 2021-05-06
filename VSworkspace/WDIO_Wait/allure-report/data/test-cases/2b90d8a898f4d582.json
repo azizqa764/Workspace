@@ -1,0 +1,66 @@
+{
+  "uid" : "2b90d8a898f4d582",
+  "name" : "should be enable",
+  "fullName" : "Element status suite.should be enable",
+  "historyId" : "ea234810488741a5025481fc075e8585",
+  "time" : {
+    "start" : 1603477202113,
+    "stop" : 1603477205017,
+    "duration" : 2904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be enable"
+  }, {
+    "name" : "package",
+    "value" : "Element status suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e8407a9509def930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603475809258,
+        "stop" : 1603475811994,
+        "duration" : 2736
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b90d8a898f4d582.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

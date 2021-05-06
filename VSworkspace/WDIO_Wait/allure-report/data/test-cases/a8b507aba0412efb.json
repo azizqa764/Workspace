@@ -1,0 +1,66 @@
+{
+  "uid" : "a8b507aba0412efb",
+  "name" : "should change text",
+  "fullName" : "Element status suite.should change text",
+  "historyId" : "4ab6144d36c843509dd25bd83698cc69",
+  "time" : {
+    "start" : 1603477208018,
+    "stop" : 1603477210357,
+    "duration" : 2339
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should change text"
+  }, {
+    "name" : "package",
+    "value" : "Element status suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e11798760c647876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603475814996,
+        "stop" : 1603475817496,
+        "duration" : 2500
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8b507aba0412efb.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

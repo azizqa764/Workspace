@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Element status suite",
+    "children" : [ {
+      "name" : "should display hidden text",
+      "uid" : "4ed0bd8b5941fadd",
+      "parentUid" : "012ce4ece13c9942f9574eef93bcf638",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1603477192045,
+        "stop" : 1603477192045,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should display existing text",
+      "uid" : "cdb0f9a07ffa64e2",
+      "parentUid" : "012ce4ece13c9942f9574eef93bcf638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477192046,
+        "stop" : 1603477195408,
+        "duration" : 3362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should be clickable",
+      "uid" : "7aa18fd9ff5f1fcc",
+      "parentUid" : "012ce4ece13c9942f9574eef93bcf638",
+      "status" : "failed",
+      "time" : {
+        "start" : 1603477198409,
+        "stop" : 1603477199110,
+        "duration" : 701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should be enable",
+      "uid" : "2b90d8a898f4d582",
+      "parentUid" : "012ce4ece13c9942f9574eef93bcf638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477202113,
+        "stop" : 1603477205017,
+        "duration" : 2904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should change text",
+      "uid" : "a8b507aba0412efb",
+      "parentUid" : "012ce4ece13c9942f9574eef93bcf638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477208018,
+        "stop" : 1603477210357,
+        "duration" : 2339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    } ],
+    "uid" : "012ce4ece13c9942f9574eef93bcf638"
+  } ]
+}

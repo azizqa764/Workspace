@@ -1,0 +1,139 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should be enable",
+      "uid" : "2b90d8a898f4d582",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477202113,
+        "stop" : 1603477205017,
+        "duration" : 2904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should display existing text",
+      "uid" : "864666e2b14303ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603475792008,
+        "stop" : 1603475802670,
+        "duration" : 10662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should display existing text",
+      "uid" : "cdb0f9a07ffa64e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477192046,
+        "stop" : 1603477195408,
+        "duration" : 3362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should be clickable",
+      "uid" : "7aa18fd9ff5f1fcc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1603477198409,
+        "stop" : 1603477199110,
+        "duration" : 701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should be clickable",
+      "uid" : "2497698d75b8ddae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1603475805672,
+        "stop" : 1603475806256,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should change text",
+      "uid" : "e11798760c647876",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603475814996,
+        "stop" : 1603475817496,
+        "duration" : 2500
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should change text",
+      "uid" : "a8b507aba0412efb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603477208018,
+        "stop" : 1603477210357,
+        "duration" : 2339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should be enable",
+      "uid" : "e8407a9509def930",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603475809258,
+        "stop" : 1603475811994,
+        "duration" : 2736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "should display hidden text",
+    "uid" : "d5b7d3bf50a023ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1603475792007,
+      "stop" : 1603475792007,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should display hidden text",
+    "uid" : "4ed0bd8b5941fadd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1603477192045,
+      "stop" : 1603477192045,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

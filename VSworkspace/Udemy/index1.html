@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Person {
+            constructor(firstName) {
+                this.firstName = firstName
+            }
+            greeting() {
+                var msg = "hello. My name is "+ this.firstName;
+              return msg;
+
+            }
+
+        }
+        class More extends Person{
+            constructor(firstName, lastName) {
+                super(firstName);
+                this.lastName = lastName;
+            }
+            newGreeting() {
+                return this.greeting()+" "+ this.lastName;
+            }
+        }
+        //var newPerson = new Person("Aziz");
+        //console.log(newPerson.firstName);
+        //console.log(newPerson.greeting());
+        var morePerson = new More("aziz", "ahmed");
+       // console.log(morePerson.firstName + " " + morePerson.lastName);
+         console.log(morePerson.newGreeting());    
+    </script>
+</body>
+</html>

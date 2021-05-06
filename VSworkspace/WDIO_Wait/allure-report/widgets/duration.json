@@ -1,0 +1,51 @@
+[ {
+  "uid" : "7aa18fd9ff5f1fcc",
+  "name" : "should be clickable",
+  "time" : {
+    "start" : 1603477198409,
+    "stop" : 1603477199110,
+    "duration" : 701
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ed0bd8b5941fadd",
+  "name" : "should display hidden text",
+  "time" : {
+    "start" : 1603477192045,
+    "stop" : 1603477192045,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2b90d8a898f4d582",
+  "name" : "should be enable",
+  "time" : {
+    "start" : 1603477202113,
+    "stop" : 1603477205017,
+    "duration" : 2904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb0f9a07ffa64e2",
+  "name" : "should display existing text",
+  "time" : {
+    "start" : 1603477192046,
+    "stop" : 1603477195408,
+    "duration" : 3362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b507aba0412efb",
+  "name" : "should change text",
+  "time" : {
+    "start" : 1603477208018,
+    "stop" : 1603477210357,
+    "duration" : 2339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

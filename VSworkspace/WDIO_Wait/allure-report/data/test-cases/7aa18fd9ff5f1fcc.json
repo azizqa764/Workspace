@@ -1,0 +1,73 @@
+{
+  "uid" : "7aa18fd9ff5f1fcc",
+  "name" : "should be clickable",
+  "fullName" : "Element status suite.should be clickable",
+  "historyId" : "ddeb60204b253df1998080506229e01c",
+  "time" : {
+    "start" : 1603477198409,
+    "stop" : 1603477199110,
+    "duration" : 701
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Button is Clickable",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Button is Clickable\n                    at Context.<anonymous> (C:\\Users\\AZIZ\\Documents\\VSworkspace\\WDIO_Wait\\tests\\elementStatus.spec.js:42:16)\n                    at Context.executeSync (C:\\Users\\AZIZ\\Documents\\VSworkspace\\WDIO_Wait\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\AZIZ\\Documents\\VSworkspace\\WDIO_Wait\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Element status suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be clickable"
+  }, {
+    "name" : "package",
+    "value" : "Element status suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2497698d75b8ddae",
+      "status" : "failed",
+      "statusDetails" : "Button is Clickable",
+      "time" : {
+        "start" : 1603475805672,
+        "stop" : 1603475806256,
+        "duration" : 584
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7aa18fd9ff5f1fcc.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}
