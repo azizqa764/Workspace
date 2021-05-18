@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12916111100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search for restaurants in an area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;search-for-restaurants-in-an-area",
+        "after": [
+          {
+            "result": {
+              "duration": 4034890000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2338704300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want food in \"136 Market Avenue, Winnipeg, MB, Canada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "136 Market Avenue, Winnipeg, MB, Canada",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchRestaurantDefinition.i_want_food_in(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2640322300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for restaurants",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33624200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see some restaurants in \"136 Market Avenue, Winnipeg, MB, Canada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "136 Market Avenue, Winnipeg, MB, Canada",
+                  "offset": 34
+                }
+              ],
+              "location": "SearchRestaurantDefinition.i_should_see_some_restaurants_in(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8787458800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Searchh for Italian Cuisines in an area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;searchh-for-italian-cuisines-in-an-area",
+        "after": [
+          {
+            "result": {
+              "duration": 4138554700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10352952400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search for restaurants in my given area for \"Italian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Italian",
+                  "offset": 47
+                }
+              ],
+              "location": "SearchRestaurantDefinition.i_want_cusine_provider_restaurants(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4261502800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want Italian cusine provider restaurants",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_search_for_restaurants_in_my_given_area_for_Italian()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12119200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see some restaurants with Italian cusuine",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_should_see_some_restaurants_with_Italian_cusuine()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9149038000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Click on skip the dishes logo should drive to home page",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;click-on-skip-the-dishes-logo-should-drive-to-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4065074200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchRestaurantDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5480387000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on any other page than homepage",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_am_on_any_other_page_than_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362358500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on skip the dishes logo",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_click_on_skip_the_dishes_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124154000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will land on home page",
+            "match": {
+              "location": "SearchRestaurantDefinition.i_will_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants",
+    "description": "So that I can order food\r\nAs a hungry customer\r\nI want to be able to find restaurants in my area",
+    "id": "use-the-website-to-find-restaurants",
+    "keyword": "Feature",
+    "uri": "C:/Users/AZIZ/Documents/workspace/CucumberSeleniumFramework/CucumberSeleniumFramework/src/main/java/Features/SearchRestaurant.feature"
+  }
+]
