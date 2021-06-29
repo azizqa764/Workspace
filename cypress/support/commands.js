@@ -1,3 +1,5 @@
+import 'cypress-file-upload';
+
 Cypress.Commands.add("Signin", () => {
     cy.visit('https://react-redux.realworld.io/#/login?_k=ib9g0c');
     cy.title().should("eq", "Conduit");
