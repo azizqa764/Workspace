@@ -11,5 +11,5 @@
             "json" :true
         }
     },
-    "testFiles": "**/*.feature"
+    "testFiles": "**/*"
 }

@@ -28,6 +28,6 @@
     "mochawesome-report-generator": "^5.2.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinition":true
+    "nonGlobalStepDefinitions": true
   }
 }
