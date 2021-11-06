@@ -1,3 +1,4 @@
+//TC_07POM.spec.js
 class login {
     email() {
        return  cy.get('input[type="email"]')
